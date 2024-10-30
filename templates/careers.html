@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decode Image</title>
+</head>
+<body>
+    <h1>Decode Image</h1>
+    <form action="{{ url_for('decode') }}" method="post" enctype="multipart/form-data">
+        <label for="encoded_image">Upload Encoded Image:</label>
+        <input type="file" name="encoded_image" required>
+        <label for="key">Upload Key (.npy):</label>
+        <input type="file" name="key" required>
+        <button type="submit" class="btn btn-secondary btn-lg" role="button">Decode and Download</button>
+    </form>
+    
+    <a href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>

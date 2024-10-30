@@ -1,0 +1,26 @@
+# Flask Web Application
+
+A simple Flask web application that demonstrates basic functionality, including user authentication and a dashboard.
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [License](#license)
+
+## Features
+- User login/logout functionality
+- Dashboard view after successful login
+- Responsive design
+
+## Installation
+
+### Prerequisites
+Make sure you have Python 3.x installed. You can download it from [python.org](https://www.python.org/downloads/).
+
+### Clone the Repository
+Clone this repository to your local machine using:
+```bash
+git clone https://github.com/yourusername/your_flask_app.git
+cd your_flask_app
